@@ -1,6 +1,8 @@
 # personal-setup
 My configurations for vim, i3, kitty
 
+![Deskot](https://github.com/GABAnich/personal-setup/blob/master/2020-07-04-163357_1918x1079_scrot.png)
+
 Vim plugin manager https://github.com/junegunn/vim-plug
 
 i3-gaps https://github.com/Airblader/i3
