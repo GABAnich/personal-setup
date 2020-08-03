@@ -16,9 +16,11 @@ set relativenumber
 set colorcolumn=80
 set cmdheight=2
 set noswapfile
+set tabstop=2
 
-colorscheme gruvbox
+set termguicolors
 let g:gruvbox_contrast_dark = 'soft'
+colorscheme gruvbox
 set background=dark
 
 let g:ale_fixers = ['prettier', 'eslint']
@@ -32,3 +34,4 @@ let g:NERDSpaceDelims = 1
 " incorrect background rendering when using a color theme with a
 " background color.
 let &t_ut = ''
+
