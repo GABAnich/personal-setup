@@ -50,6 +50,10 @@ gaps outer 8
 
 # Personal: Desktop image
 exec --no-startup-id feh --bg-scale ~/Pictures/bg11.jpg
+exec --no-startup-id xrandr --output LVDS --primary
+exec --no-startup-id xrandr --output VGA-0 --left-of HDMI-0
+exec --no-startup-id xrandr --output LVDS --left-of VGA-0
+
 
 # Personal: Bind keys
 bindsym --release Print exec scrot --select '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
